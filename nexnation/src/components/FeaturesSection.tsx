@@ -14,10 +14,16 @@ const FeaturesSection = () => {
       description: "Step-by-step guidance with minimal effort. Automated document generation and filing with real-time progress tracking.",
       benefits: ["Automated paperwork", "Real-time status updates", "Expert review process", "Compliance monitoring"]
     },
+    // {
+    //   icon: Link,
+    //   title: "Partner Integrations",
+    //   description: "Stripe, PayPal, Avalara, and more, ready to connect. Pre-built integrations with essential business tools and services.",
+    //   benefits: ["Payment processing setup", "Tax calculation tools", "Banking partnerships", "Accounting integrations"]
+    // },
     {
       icon: Link,
-      title: "Partner Integrations",
-      description: "Stripe, PayPal, Avalara, and more, ready to connect. Pre-built integrations with essential business tools and services.",
+      title: "coming soon",
+      description: "",
       benefits: ["Payment processing setup", "Tax calculation tools", "Banking partnerships", "Accounting integrations"]
     },
     {

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-illustration.jpg";
+import heroImage from "@/assets/hero-illustration.png";
 
 const HeroSection = () => {
   return (
@@ -22,15 +22,15 @@ const HeroSection = () => {
               <Button className="btn-hero text-lg">
                 Join the Waitlist
               </Button>
-              <Button variant="outline" className="btn-outline-premium border-white text-white hover:bg-white hover:text-secondary">
+              <Button variant="outline" className="btn-outline-premium border-white text-black hover:bg-white hover:text-secondary">
                 Schedule Demo
               </Button>
             </div>
             
             <div className="flex items-center gap-8 text-sm text-gray-400">
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>30-day launch guarantee</span>
+                {/* <div className="w-2 h-2 bg-primary rounded-full"></div> */}
+                {/* <span>30-day launch guarantee</span> */}
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>

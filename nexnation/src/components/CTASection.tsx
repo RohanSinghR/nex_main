@@ -3,9 +3,9 @@ import { ArrowRight, Users, Globe, Zap } from "lucide-react";
 
 const CTASection = () => {
   const stats = [
-    { icon: Users, value: "500+", label: "Founders in waitlist" },
-    { icon: Globe, value: "45+", label: "Countries analyzed" },
-    { icon: Zap, value: "30", label: "Day average launch" }
+    // { icon: Users, value: "500+", label: "Founders in waitlist" },
+    // { icon: Globe, value: "45+", label: "Countries analyzed" },
+    // { icon: Zap, value: "30", label: "Day average launch" }
   ];
 
   return (
@@ -28,7 +28,7 @@ const CTASection = () => {
               Join Waitlist
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" className="btn-outline-premium border-white text-white hover:bg-white hover:text-secondary">
+            <Button variant="outline" className="btn-outline-premium border-white text-black hover:bg-white hover:text-secondary">
               Schedule a Demo
             </Button>
           </div>

@@ -5,21 +5,21 @@ const PricingSection = () => {
   const tiers = [
     {
       name: "Starter",
-      price: "$2,500",
+      price: "coming soon",
       description: "Perfect for early-stage founders testing the waters",
       features: [
         "AI country analysis (up to 3 countries)",
         "Basic incorporation guidance",
         "Standard compliance checklist",
         "Email support",
-        "30-day launch timeline"
+        // "30-day launch timeline"
       ],
       isPopular: false,
       cta: "Start with Starter"
     },
     {
       name: "Growth",
-      price: "$7,500",
+      price: "coming soon",
       description: "Ideal for funded startups ready to scale globally",
       features: [
         "AI country analysis (up to 10 countries)",
@@ -27,7 +27,7 @@ const PricingSection = () => {
         "Advanced compliance management",
         "Banking & payment setup",
         "Priority support",
-        "20-day launch timeline",
+        // "20-day launch timeline",
         "Partner integrations included"
       ],
       isPopular: true,
@@ -35,7 +35,7 @@ const PricingSection = () => {
     },
     {
       name: "Elite",
-      price: "$15,000+",
+      price: "coming soon",
       description: "For established companies expanding to multiple markets",
       features: [
         "Unlimited country analysis",
@@ -44,7 +44,7 @@ const PricingSection = () => {
         "Dedicated account manager",
         "Custom integrations",
         "White-glove service",
-        "10-day launch timeline",
+        // "10-day launch timeline",
         "Ongoing support & optimization"
       ],
       isPopular: false,
